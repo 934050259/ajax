@@ -1,0 +1,43 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-size:15px;
+}
+
+
+#right_font{ margin:0px; padding:0px; padding-left:30px; width:97%; padding-top:10px;height:28px; background-image:url(../images/main_10.gif) ; background-repeat:repeat-x;}
+#right_font div {float:left;width:6px;height:6px;background:url(../images/main_14.gif) no-repeat;margin-right:12px;margin-top:5px;};
+#right_font img {padding-right:8px; margin-left:15px;}
+#right_font span {font-weight:bold;}
+
+
+.table {border-collapse:collapse; border:1px solid #385A70; width:90%; margin:0 auto;}
+.table th{padding-left:0.5em; border:1px solid #385A70;height:28px; background:url(../images/table_top.jpg);background-repeat:repeat-x;font-size:15px;font-weight:normal;color:#ffffff;} 
+.table td{padding:5px; border:1px solid #385A70; height:22px;word-break: break-all;/*word-wrap: break-word;*/}
+.table tr:hover { background:#E8E8E8; }
+.table th a { color:#fffffe;}
+
+
+.searchdiv {height:40px;padding-top:10px;padding-left:15%;float:left;};
+.searchdiv input {width:180px; height:20px; border:solid 1px #385A70; font-size:11pt; margin-left:10px;}
+.searchdiv div {float:left;}
+
+.btn1 {float:left;margin-left:10px;background:url(../images/btn1.jpg) no-repeat; height:21px; width:80px; padding-top:4px; text-align:center; cursor:pointer}
+
+.del_t {background:url(../images/083.gif) no-repeat; height:14px; width:14px;float:left;cursor:pointer;}
+.del {background:url(../images/083.gif) no-repeat; height:14px; width:14px; float:left; margin-left:10px; cursor:pointer;}
+.add {background:url(../images/001.gif) no-repeat; height:14px; width:14px; float:left; margin-left:10px; cursor:pointer;}
+.modify {background:url(../images/114.gif) no-repeat; height:14px; width:14px; float:left; margin-left:10px; cursor:pointer;}
+
+.qq {background:url(../images/qq.gif) no-repeat; height:16px; width:16px; float:left; margin-right:10px; cursor:pointer;}
+.email {background:url(../images/email.gif) no-repeat; height:13px; width:16px; float:left; margin-right:10px; cursor:pointer;}
+
+.tb_loading {background:url(../images/loading.gif) no-repeat;height:32px; width:32px; margin-top:20px; margin-bottom:20px;}
+
+.del {background:url(../images/083.gif) no-repeat; height:14px; width:14px; float:left; margin-left:10px; cursor:pointer;}
+
+.add_file {background:url(../images/add.png) no-repeat; height:16px; width:16px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}
+.remove_file {background:url(../images/remove.png) no-repeat; height:16px; width:16px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}
+.remove_01 {background:url(../images/icn-remove.png) no-repeat; height:12px; width:12px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}
+
+.file {background:url(../images/file.png) no-repeat; height:16px; width:16px; float:left; margin-left:10px; margin-top:5px; cursor:pointer;}

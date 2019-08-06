@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>ajax</display-name>
+
+	<servlet>
+		<servlet-name>ajaxTest</servlet-name>
+		<servlet-class>com.ajax.ajaxTest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ajaxTest</servlet-name>
+		<url-pattern>/ajaxTest</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>index1</servlet-name>
+		<servlet-class>com.ajax.index1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>index1</servlet-name>
+		<url-pattern>/index1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addToCart</servlet-name>
+		<servlet-class>com.ajax.addToCart</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addToCart</servlet-name>
+		<url-pattern>/addToCart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>provinceServlet</servlet-name>
+		<servlet-class>newAjax.provinceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>provinceServlet</servlet-name>
+		<url-pattern>/provinceServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MyTest</servlet-name>
+		<servlet-class>com.my.test.MyTest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyTest</servlet-name>
+		<url-pattern>/MyTest</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>Test1</servlet-name>
+		<servlet-class>com.lesson.Test1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Test1</servlet-name>
+		<url-pattern>/Test1</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>
+		<servlet-name>Test2</servlet-name>
+		<servlet-class>com.lesson.Test2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Test2</servlet-name>
+		<url-pattern>/Test2</url-pattern>
+	</servlet-mapping>	
+
+<!-- ************************************************************** -->
+
+	<servlet>
+		<servlet-name>MyServlet</servlet-name>
+		<servlet-class>com.excample.MyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyServlet</servlet-name>
+		<url-pattern>/MyServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>ValidateColorServlet</servlet-name>
+		<servlet-class>com.excample.ValidateColorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ValidateColorServlet</servlet-name>
+		<url-pattern>/ValidateColorServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>Cart</servlet-name>
+		<servlet-class>com.excample.Cart</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cart</servlet-name>
+		<url-pattern>/Cart</url-pattern>
+	</servlet-mapping>	
+		
+ 	<filter>
+		<filter-name>loginFilterBefor</filter-name>
+		<filter-class>com.excample.loginFilterBefor</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginFilterBefor</filter-name>
+		<url-pattern>/Code/admin/page/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+	</filter-mapping>   
+	
+<!-- ************************************************************** -->			
+	
+
+</web-app>
